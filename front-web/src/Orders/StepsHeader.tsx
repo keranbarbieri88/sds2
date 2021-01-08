@@ -1,7 +1,8 @@
 
+
 function StepsHeader(){
     return(
-        <header className="orders-steps-cotainer">
+        <header className="orders-steps-container">
             <div className="orders-steps-content">
                 <h1 className="steps-title">
                     SIGA AS <br /> ETAPAS
@@ -16,11 +17,8 @@ function StepsHeader(){
                             Depois clique em <strong>"ENVIAR PEDIDO"</strong>
                     </li>
                 </ul>
-
             </div>
-
         </header>
-
     ) 
 }
 
