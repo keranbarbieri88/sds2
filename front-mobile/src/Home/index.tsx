@@ -5,7 +5,6 @@ import { RectButton } from 'react-native-gesture-handler';
 import Header from '../Header';
 
  function Home() {
-
     const navigation = useNavigation();
 
     const handleOnPress = () => {
@@ -24,8 +23,6 @@ import Header from '../Header';
                   Receba todos os pedidos do seu {'\n'} restaurante na palma da sua mão
               </Text>
           </View>
-
-     
           <View style={styles.footer}>
               <RectButton style={styles.button} onPress={ handleOnPress}>
                   <Text style={styles.buttonText}>VER PEDIDOS</Text>
